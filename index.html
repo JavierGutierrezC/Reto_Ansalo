@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  
+    <!-- BOOTSTRAP  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- BOOTSTRAP togle -->
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="./assets/Styles/indexStyles.css">
+</head>
+
+<body class="light" id="containAll">
+    <div class="container border border-primary mt-5 col-5 bodyContent">
+        <header>
+            <nav class="navbar d-flex justify-content-center">
+                <span class="navbar-brand mb-0 h2">RETO ANSALO</span>
+            </nav>
+        </header>
+        <main>
+        <!-- container-fluid es para dejarle margenes a el contenido -->
+        <div class="container border border-danger">
+            <div class="row border border-primary p-3">
+                <div class="col border border-primary">
+                    <h3>Letras</h3>
+                </div>
+                <div class="col-8 border border-primary">
+                    <div class="screen" id="screen1"></div>
+                </div>
+            </div>
+            <div class="row border border-primary p-3">
+                <div class="col border border-primary">
+                    <h3>Numeros</h3>
+                </div>
+                <div class="col-8 border border-primary">
+                    <div class="screen" id="screen2"></div>
+                </div>
+            </div>
+
+            <!-- switches -->
+            <div class="row border border-primary px-3 py-1">
+                <div class="col-9 border border-primary d-flex justify-content-end d-flex align-items-center">
+                    <h5>Activar tema retro</h5>
+                </div>
+                <div class="col border border-primary d-flex justify-content-end">
+                <label class="switch" >
+                    <input type="checkbox" id="retro" >
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+            </div>
+
+            <div class="row border border-primary px-3 py-1">
+                <div class="col-9 border border-primary d-flex justify-content-end d-flex align-items-center">
+                    <h5>Tema oscuro</h5>
+                </div>
+                <div class="col border border-primary d-flex justify-content-end">
+                    <label class="switch">
+                        <input type="checkbox" id="dark">
+                        <span class="slider round" ></span>
+                      </label>
+                </div>
+            </div>
+            <!-- Teclado -->
+            <ul id="buttons" class="buttons">
+                <div class="row border border-primary p-2 justify-content-around">
+                    <li><a href="#" data-key="A1">A-1</a></li>
+                    <li><a href="#" data-key="B2">B-2</a></li>
+                    <li><a href="#" data-key="C3">C-3</a></li>
+                </div>
+                <div class="row border border-primary p-2 justify-content-around">
+                    <li><a href="#" data-key="D4">D-4</a></li>
+                    <li><a href="#" data-key="E5">E-5</a></li>
+                    <li><a href="#" data-key="F6">F-6</a></li>
+                </div>
+                <div class="row border border-primary p-2 justify-content-around">
+                    <li><a href="#" data-key="G7">G-7</a></li>
+                    <li><a href="#" data-key="H8">H-8</a></li>
+                    <li><a href="#" data-key="I9">I-9</a></li>
+                </div>
+                <div class="row border border-primary p-2 justify-content-around">
+                    <li><a href="#" data-key=""></a></li>
+                    <li><a href="#" data-key="J0">J-0</a></li>
+                    <li><a href="#" data-key="reset">reset</a></li>
+                </div>
+            </ul>
+
+        </div>
+        </main>
+        <!-- FOOTER -->
+            <footer class="mt-2">
+                <h5 class="d-flex justify-content-center">All rights reserved</h5>
+            </footer>
+            
+    </div>
+
+
+    <!-- BOOTSTRAP  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP togle -->
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <!-- Archivo JS -->
+    <script src="./assets/scripts/index.js"></script>
+    <!-- SweetAlert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
