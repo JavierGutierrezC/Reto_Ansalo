@@ -16,11 +16,7 @@ for (const button of buttons) {
         console.log(letters);
         console.log(numbers);
 
-        if(e.target.dataset.key == "reset"){
-            console.log("reset")
-            screen1.textContent = "";
-            screen2.textContent = "";
-        }
+       
         if (screen1.textContent.indexOf(letters) != -1 && sc1 < 10)
             swal(letters + " Esta repetida", "El orden debe ser: ABCDEFGHIJ!", "error");
         if (screen2.textContent.indexOf(numbers) != -1 && sc2 < 10)
@@ -32,6 +28,12 @@ for (const button of buttons) {
         if (sc2 < 10){
             screen2.textContent = screen2.textContent + numbers;
         }  
+        
+        if(e.target.dataset.key == "reset"){
+            console.log("reset")
+            screen1.textContent = "";
+            screen2.textContent = "";
+        }
     })
 }
 
