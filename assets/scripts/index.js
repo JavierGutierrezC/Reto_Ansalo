@@ -40,7 +40,7 @@ for (const button of buttons) {
             swal(letters + " No es la letra siguiente", "El orden debe ser: ABCDEFGHIJ!", "error");
         }
         else if (sc2 < 10 && sc1 == 10){
-            swal(numbers + " No es la letra siguiente", "El orden debe ser: ABCDEFGHIJ!", "error");
+            swal(numbers + " No es la letra siguiente", "El orden debe ser: 1234567890!", "error");
         }
         
     })
