@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  
+    <!-- BOOTSTRAP  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="../assets/Styles/calculator.css">
+</head>
+
+<body class="border border-danger">
+    <div class="border border-warning container col-lg-12 p-0">
+        <main>
+        <!-- container-fluid es para dejarle margenes a el contenido -->
+        <div class=" border border-warning container row col-lg-12 p-0">
+            <div class="col-lg-9 border border-light">
+                    <div class="row pl-5 contheight"><h5>Standard</h5></div>
+                    <div class="row pl-5 d-flex justify-content-end">
+                        <input type="text" id="screen" class="col-lg-12 m-3 screenS" placeholder="0">
+                    </div>
+                    <div class="row pl-4 border border-danger d-flex justify-content-start">
+                        <button class="mButtonsdis" type="button" disabled id="MC">MC</button>
+                        <button class="mButtonsdis" type="button" disabled id="MR">MR</button>
+                        <button class="mButtons" type="button" id="M+">M+</button>
+                        <button class="mButtons" type="button" id="M-">M-</button>
+                        <button class="mButtons" type="button" id="MS">MS</button>
+                    </div>
+                    <div class="row border border-primary pl-3">
+                            <div class="row col-lg-12 justify-content-around border border-danger allButtons">
+                                <button type="button" id="%">%</button>
+                                <button type="button" id="√">√</button>
+                                <button type="button" id="x²">x²</button>
+                                <button type="button" id="¹/x">¹/x</button>
+                            </div>    
+                            <div class="row col-lg-12 justify-content-around border border-danger allButtons">
+                                <!-- <button type="button" id="">%</button> -->
+                                <button type="button" id="CE">CE</button>
+                                <button type="button" id="C">C</button>
+                                <button type="button" id="borr">borr</button>
+                                <button type="button" id="÷">÷</button>
+                            </div>
+                            <div class="row col-lg-12 justify-content-around border border-danger allButtons">
+                                
+                                <button class="buttonsDark" type="button" id="7">7</button>
+                                <button class="buttonsDark" type="button" id="8">8</button>
+                                <button class="buttonsDark" type="button" id="9">9</button>
+                                <button type="button" id="">X</button>
+                            </div>
+                            <div class="row col-lg-12 justify-content-around allButtons">
+                                
+                                <button class="buttonsDark" type="button" id="4">4</button>
+                                <button class="buttonsDark" type="button" id="5">5</button>
+                                <button class="buttonsDark" type="button" id="6">6</button>
+                                <button type="button" id="">-</button>
+                            </div>
+                            <div class="row col-lg-12 justify-content-around allButtons">
+                                <button class="buttonsDark" type="button" id="1">1</button>
+                                <button class="buttonsDark" type="button" id="2">2</button>
+                                <button class="buttonsDark" type="button" id="3">3</button>
+                                <button type="button" id="">+</button>
+                            </div>
+                            <div class="row col-lg-12 justify-content-around allButtons">
+                                <button type="button" id="">±</button>
+                                <button class="buttonsDark" type="button" id="0">0</button>
+                                <button type="button" id="">.</button>
+                                <button type="button" id="">=</button>
+                            </div>
+                    </div>
+                </div>
+            <div class="col-lg-3 border border-danger">
+                <div class="row underline"><p>History</p></div>
+                <div class="row"><p>There's no history yet</p></div>
+            </div>
+        </div> 
+        </main>        
+    </div>
+
+
+    <!-- BOOTSTRAP  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- Archivo JS -->
+    <script src="../assets/scripts/calculator.js"></script>
+    <!-- SweetAlert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
