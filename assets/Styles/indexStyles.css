@@ -31,6 +31,9 @@
 	height: 40px;
 	padding-top: 8px;
 	margin-top: 1px;
+	color:white;
+	padding-left: 5px;
+	letter-spacing: 3px;
 }
 .buttons li:active {
     box-shadow: inset #04365f;
@@ -94,6 +97,17 @@
     font-family: Arial, Helvetica, sans-serif;
     background: #04223a;
 } 
+.dark .screen {
+	background-color: #0085F5;
+	overflow: hidden;
+	width: 310px;
+	height: 40px;
+	padding-top: 8px;
+	margin-top: 1px;
+	color:#04223a;
+	padding-left: 5px;
+	letter-spacing: 3px;
+}
 .dark .bodyContent {
     background: rgb(0, 1, 17);
 }
@@ -125,7 +139,10 @@
     background: #BABABA;
 } 
 .retro .bodyContent {
-    background: #DFDFDF;
+	background: #DFDFDF;
+	border-style: solid;
+	border-width: 1px;
+	border-color:  #888888;
 }
 .retro .buttons a {
 	color:rgb(0, 0, 0);
@@ -147,6 +164,9 @@
 	text-align: center;
 	border-radius: 50px;
 	box-shadow: 5px 10px 18px #888888;
+	border-style: solid;
+	border-width: 1px;
+	border-color:  #888888;
 }
 .retro .buttons li:active {
     box-shadow: inset #BABABA;
@@ -167,4 +187,7 @@
 	height: 40px;
 	padding-top: 8px;
 	margin-top: 1px;
+	color: black;
+	padding-left: 5px;
+	letter-spacing: 3px;
 }
